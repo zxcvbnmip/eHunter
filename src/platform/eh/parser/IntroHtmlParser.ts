@@ -62,7 +62,7 @@ export class IntroHtmlParser {
         let imgList: string[] = [];
         for (let i = 0; i < this._getThumbPageCount(sumOfPage); i++) {
             if (window.location.hostname === 'e-hentai.org') {
-                imgList.push(`https://ehgt.org/m/${thumbKeyId}/${albumId}-${i < 10 ? '0' + i : i}.jpg`);
+                imgList.push(`https://s.exhentai.org/m/${thumbKeyId}/${albumId}-${i < 10 ? '0' + i : i}.jpg`);
             } else {
                 imgList.push(`/m/${thumbKeyId}/${albumId}-${i < 10 ? '0' + i : i}.jpg`);
             }
